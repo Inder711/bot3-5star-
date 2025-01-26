@@ -1,4 +1,4 @@
-# (©)CodeXBotz
+#(©)CodeXBotz
 
 import os
 import logging
