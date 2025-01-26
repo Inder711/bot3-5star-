@@ -116,7 +116,7 @@ def is_subscribed(client, user_id, channel_id):
 # Check if a user is subscribed to all required channels
 def check_subscription(client, user_id):
     not_subscribed = []
-    for channel_id in FORCE_SUB_CHANNELS:
+    for channel_id in FORCE_SUB_CHANNEL:
         if not is_subscribed(client, user_id, channel_id):
             not_subscribed.append(channel_id)
     return not_subscribed
