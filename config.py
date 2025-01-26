@@ -32,7 +32,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://5starbot123:7ipeSH1moZfrU
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 # Force subscription channel IDs
-FORCE_SUB_CHANNELS = [
+FORCE_SUB_CHANNEL = [
     int(channel_id.strip()) for channel_id in os.environ.get("FORCE_SUB_CHANNEL", "-1002424794894,-1002489269478").split(",")
 ]
 
